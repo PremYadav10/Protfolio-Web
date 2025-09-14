@@ -6,16 +6,15 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
-//publicKey: 'YOUR_PUBLIC_KEY',
   const sendEmail = async(e) => {
     e.preventDefault();
 
     await emailjs
       .sendForm(
-        "service_p76yyva",  // EmailJS Service ID
-        "template_ipc0haf",  //  EmailJS Template ID
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
         form.current,
-        "Unjpa6YXkXGJmh9kx"  //  EmailJS Public Key
+        process.env.EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
