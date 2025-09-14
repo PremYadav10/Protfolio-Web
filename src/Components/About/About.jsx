@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
+import MyImage  from '../../Images/my rounded img.png'
 function About() {
+
   return (
     <section
     id='about'
@@ -76,7 +78,7 @@ function About() {
               transitionSpeed={1000}
               gyroscope={true}
             >
-                  <img src="../src/Images/my rounded img.png" alt="my image" 
+                  <img src={MyImage} alt="my image" 
                   className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'/>
             </Tilt>
 
