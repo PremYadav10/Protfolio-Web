@@ -143,7 +143,7 @@ export const projects = [
       description:
       "Developed a full-stack blogging platform offering users a personalized experience to create, edit, and manage their content. The application leverages Appwrite for secure authentication and efficient data handling, including robust database and storage services. The frontend is built with React.js and styled using Tailwind CSS, ensuring a modern, intuitive, and responsive design across all devices.",
       image: blogspotLogo,
-      tags: ["React JS", "Appwrite", "Tailwind CSS", "Auth"],
+      tags: ["React JS", "Appwrite", "Tailwind CSS", "Auth","Redux"],
       github: "https://github.com/PremYadav10/Blog-Spot",
       webapp: "https://blog-spot-tau.vercel.app/",
     },
@@ -198,6 +198,5 @@ export const projects = [
     //   github: "https://codingmasterweb.in/",
     //   webapp: "https://codingmasterweb.in/",
     // },
-    // {
 
 ];  
