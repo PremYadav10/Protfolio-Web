@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
 import MyImage from '../../Images/my rounded img.png'
 import { TypeAnimation } from 'react-type-animation';
