@@ -25,7 +25,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import appwriteLogo from './assets/tech_logo/appwritelogo.png'
-
+import PHPLogo from './assets/tech_logo/PHPLOGO.png'
 // Education Section Logo's
 import mpboardLogo from './assets/education_logo/MPBoardLogo.png'
 import sirtLogo from './assets/education_logo/SIRT LOGO.png'
@@ -74,6 +74,7 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
+      { name: 'PHP', logo: PHPLogo },
       // { name: 'Java', logo: javaLogo },
       // { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
@@ -161,9 +162,9 @@ export const projects = [
       id: 3,
       title: "The Gym Web Application",
       description:
-      "Developed a responsive web application for a gym, providing members with a modern and interactive user experience.The site features a dynamic interface for viewing and booking class schedules, detailed trainer profiles, and a dedicated section for managing membership details. A key feature is the chatbot-enabled user support, powered by NLP and a TrIo AI-agent, which offers instant assistance for common queries.",
+      "Developed a responsive web application for a gym, providing members with a modern and interactive user experience.The site features a dynamic interface for viewing and booking class schedules, detailed trainer profiles, and a dedicated section for managing membership details. A key feature is the chatbot-enabled user support, powered by NLP and a Lyro AI-agent, which offers instant assistance for common queries.",
       image: theGYMLogo,
-      tags: ["HTML", "CSS", "JavaScript","Trio AI Agent","NLP"],
+      tags: ["HTML", "CSS", "JavaScript","Lyro AI Agent"],
       github: "https://github.com/PremYadav10/The-GYM",
       webapp: "https://premyadav10.github.io/The-GYM/",
     },
