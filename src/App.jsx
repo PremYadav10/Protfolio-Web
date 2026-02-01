@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import Blurblob from './Components/Blurblob'
+import Experience from './Components/Experience/Experience.jsx'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <About/>
         <Skills/>
         <Work/>
+        <Experience/>
         <Education/>
         <Contact/>
         <Footer/>

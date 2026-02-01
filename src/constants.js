@@ -29,6 +29,7 @@ import PHPLogo from './assets/tech_logo/PHPLOGO.png'
 // Education Section Logo's
 import mpboardLogo from './assets/education_logo/MPBoardLogo.png'
 import sirtLogo from './assets/education_logo/SIRT LOGO.png'
+import materialuiLogo from './assets/tech_logo/materialuiLogo.png'
 
 // Project Section Logo's
 import aitripplannerLogo from './assets/work_logo/AiTrip.png'
@@ -36,6 +37,7 @@ import SSEHLogo from './assets/work_logo/SSEH.png'
 import theGYMLogo from './assets/work_logo/GYM.png'
 import blogspotLogo from './assets/work_logo/blogSpot.png'
 import blinkitLogo from './assets/work_logo/blinkit.png'
+import netlegends from './assets/work_logo/netlegends.png'
 
 
 export const SkillsInfo = [
@@ -49,9 +51,9 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
-      // { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'GSAP', logo: gsapLogo },
+      { name: 'Material UI', logo: materialuiLogo },
+      { name: 'Bootstrap', logo: bootstrapLogo },
     ],
 
      
@@ -96,6 +98,29 @@ export const SkillsInfo = [
     ],
   },
 ];
+
+ export const experiences = [
+    {
+      id: 0,
+      img: netlegends,
+      role: "Web Development Internship",
+      company: "Net Legends",
+      date: "Oct 2025 - Jan 2026",
+      desc: "Developed dynamic and scalable web applications using the MERN stack and PHP, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React JS",
+        "PHP",
+        "Node JS",
+        "Tailwind CSS",
+        "MongoDb",
+        "MySQL",
+        "Express JS",
+      ],
+    }
+  ];
   
 export const education = [
     {

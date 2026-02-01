@@ -61,7 +61,7 @@ function About() {
           </p>
 
           {/* resume button */}
-          <a href="https://drive.google.com/file/d/1s3jy6rbzzPNDfLoQ9LY6oMnKUOqM6Wa-/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1uw7svzbgzoVEMDARbA7h22KxtixzvUzF/view?usp=sharing"
             target='_blank'
             rel="noopener noreferrer"
             className='inline-block text-white py-3 px-8 rounded-full mt-4 text-lg font-bold transition duration-300 transform hover:scale-105'
